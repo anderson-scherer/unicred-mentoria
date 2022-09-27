@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--background: #F2F2F2;
+
+-->
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Wireframe - Gustavo</title>
+
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto';
+            font-weight: normal;
+
+
+        }
+
+        header {
+            width: 100%;
+            height: 64px;
+        }
+
+        body {
+            background: #F2F2F2;
+        }
+
+        #trade {
+            display: flex;
+            font-size: 24px;
+            padding-left: 40px;
+        }
+
+        nav {
+            display: flex;
+            padding:20px;
+            text-align: left;
+            justify-content: center;
+        }
+
+        #menu-nav {
+            display: flex;
+            flex: auto;
+            align-items: center;
+            font-size: 18px;
+        }
+
+        #menu-nav li {
+            display: flex;
+            margin: 0;
+            padding-left: 32px;
+        }
+
+        #value {
+            position: relative;
+            top: 195px;
+            text-align: center;
+            font-size: 65px;
+        }
+
+        main {
+            width: 100%;
+            height: 700px;
+        }
+
+        #artigo {
+            position: relative;
+            top: 250px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .botao-main {
+            display: block;
+            background: #000000;
+            font-size: 18px;
+            color: #FFFFFF;
+            border-radius: 5px;
+            width: 14%;
+            height: 64px;
+            position: relative;
+            top: 285px;
+            margin-left: auto;
+            margin-right: auto;
+            cursor: pointer;
+        }
+
+
+        .secao-2 {
+            width: 100%;
+            height: 400px;
+        }
+        .secao-2 p:first-child {
+            text-align: center;
+            padding-top:125px;
+            font-size: 24px;
+        }
+
+        .secao-2 p:last-child {
+            position: relative;
+            text-align: center;
+            font-size: 14px;
+            padding-top: 48px;
+        }
+
+        .circulo {
+            display: flex;
+            position: relative;
+            top:19px;
+            width:40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #000000;
+        }
+
+        .secao-3 {
+            width: 100%;
+            height: 840px;
+
+        }
+
+        .secao-3 h2 {
+            text-align: center;
+            padding-top: 96px;
+            font-size: 32px;
+        }
+
+        .secao-3 p {
+            text-align: center;
+            padding-top: 24px;
+        }
+
+        .secao-3 div {
+
+            position: relative;
+            left: 17.5%;
+            margin-left: 30px;
+            word-wrap: break-word;
+        }
+
+
+        .retangulos-pretos {
+            float: left;
+            margin-top: 64px;
+            width: 270px;
+            height: 270px;
+            background: #000000;
+        }
+
+        .retangulos-brancos {
+            display: none;
+            float: left;
+            width: 270px;
+            height: 166px;
+            background: #ffffff;
+        }
+    
+        .secao-4 {
+            width: 100%;
+            height: 860px;
+        }
+
+        .banner {
+            width: 1170px;
+            height: 370px;
+            background: #000000;
+            background-image: linear-gradient(to left, #000000 70%, #222222 30%);
+
+        }
+
+        .banner p:first-child {
+            color: #FFFFFF;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: left;
+            margin-left: 438px;
+            padding-top: 54px;
+        }
+
+        .banner h1 {
+            color: #FFFFFF;
+            font-size: 48px;
+            margin-left: 438px;
+            padding-top: 20px;
+            text-align: left;
+        }
+
+        .banner p:last-child {
+            color: #FFFFFF;
+            font-size: 18px;
+            margin-left: 438px;
+            padding-top: 80px;
+        }
+
+
+        .banner ~ div {
+            float: left;
+            width: 570px;
+            height: 290px;
+            background: #FFFFFF;
+            margin-top: 30px;
+            margin-right: 31px;
+            
+        }
+
+        .banner2 {
+            margin-left: 366px;
+        }
+
+        .banner2 p {
+            
+            margin: 16px;
+        }
+
+        .banner3 p {
+            margin: 16px;
+        }
+
+
+        .subtitulo {
+            font-size: 24px;
+        }
+
+
+        .login  {
+            display: flex;
+            width: 100%;
+            height: 568px;
+            padding-top: 120px;
+        }
+
+
+        form {
+            padding: 20px;
+        }
+
+        form p {
+            text-align: center;
+            padding-bottom: 47px;
+            font-size: 20px;
+        }
+
+        input {
+            width: 360px;
+            height: 64px;
+            font-size: 20px;
+            padding-left: 25px;
+        }
+
+        .botao-form {
+            background: #000000;
+            font-size: 18px;
+            color: #FFFFFF;
+            border-radius: 5px;
+            width: 360px;
+            height: 64px;
+            cursor: pointer;
+        }
+
+
+
+    </style>
+
+</head>
+
+<header>
+    <nav>
+        <h1 id="trade">TRADE</h1>
+        <ul id="menu-nav" class="menu">
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+            <li>Link 4</li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <article>
+            <h1 id="value">Value Proposition</h1>
+                <p id="artigo">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor incididunt <br>
+                    ut labore et dolore magna aliqua.<br>
+                </p>
+        </article>
+        <button type="button" class="botao-main">Start Free trial</button>
+    </main>
+
+        <section class="secao-2">
+
+            <p>
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt.”
+            </p>
+
+                <div class="circulo">
+                </div>
+
+            <p>
+                Maria Lopez, VP of Design at Meshery
+            </p>
+
+        </section>
+
+        <section class="secao-3">
+
+            <h2>Your Best Value Proposition</h2>
+             
+            <p>
+                “If you don’t try this app, you won’t become the superhero you were meant to be”
+            </p>
+
+            <div class="retangulos-pretos">
+            </div>
+
+            <div class="retangulos-pretos">
+            </div>
+
+            <div class="retangulos-pretos">
+            </div>
+
+            <div class="retangulos-pretos">
+            </div>
+
+            <div class="retangulos-brancos">
+                <p>Special Feature</p>
+                <p>See More ></p>
+            </div>
+
+            <div class="retangulos-brancos">
+                <p>Special Feature</p>
+                <p>See More ></p>
+            </div>
+
+            <div class="retangulos-brancos">
+                <p>Special Feature</p>
+                <p>See More ></p>
+            </div>
+
+            <div class="retangulos-brancos">
+                <p>Special Feature</p>
+                <p>See More ></p>
+            </div>
+
+        </section>
+
+        <section class="secao-2">
+
+            <p>
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt.”
+            </p>
+
+                <div class="circulo">
+                </div>
+
+            <p>
+                Maria Lopez, VP of Design at Meshery
+            </p>
+
+        </section>
+
+        <section class="secao-4">
+
+            <p>
+                
+            </p>
+
+                <div class="banner">
+                    <p>
+                    Author name
+                    </p>
+                    <h1>
+                    The best way to <br>
+                    wireframe a website
+                    </h1>
+                    <p>Read More</p>
+                </div>
+
+                <div class="banner2">
+                    <p class="subtitulo">
+                    Keys to writing copy that actually
+                    converts<br>and sells users
+                    </p>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+                    sed do eiusmod tempor incididunt ut labore et dolore...
+                    </p>
+                    <p>
+                    Read More
+                    </p>
+                </div>
+
+                <div class="banner3">
+                    <p class="subtitulo">
+                    Keys to writing copy that actually
+                    converts <br>
+                    and sells users
+                    </p>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+                    sed do eiusmod tempor incididunt ut labore et dolore...
+                    </p>
+                    <p>
+                    Read More
+                    </p>
+                </div>
+
+        </section>
+
+        <section class="secao-2">
+
+            <p>
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt.”
+            </p>
+
+                <div class="circulo">
+                </div>
+
+            <p>
+                Maria Lopez, VP of Design at Meshery
+            </p>
+
+        </section>
+
+        <section class="login">
+            <div>
+                <form>
+                    <p>Try the product out for free.</p>  
+                    <input type="text" id="email" placeholder="email">
+                        <br>
+                        <br>
+                    <input type="password" id="pass" placeholder="password">
+                        <br>
+                        <br>
+                    <button type="button" class="botao-form">Start Free trial</button>
+                </form>
+            </div>
+
+        </section>
+
+</body>
+
+</html>
