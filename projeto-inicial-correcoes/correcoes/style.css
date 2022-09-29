@@ -1,0 +1,106 @@
+/* 
+    A fim de organizar o código, vamos separar nossa aplicação, nesse momento sem 
+    a preocupação com pastas, apenas arquivos. Esse processo facilita a manutenção de contexto.
+    Arquivo destinado aos estilos gerais do projeto.
+*/
+body {
+    background: #F2F2F2;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #000000;
+}
+
+/*
+    Criamos aqui um container para uso comum nos projetos.
+    Aqui temos apenas um exemplo, geralmente encontramos em projetos 
+    com outras nomeclaturas como: wrapper, box, group.
+    Nesse momento nossa classes não serão especializadas, ou seja,
+    construídas de forma mais slimples possível, às vezes menos é mais.
+*/
+.container-flex-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Classes especializadas */
+.header-principal {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.header-principal .brand {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-principal .ul { 
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-principal .ul .li { 
+    padding: 8px;
+    font: 18px;
+    margin-right: 30px;
+}
+
+.nav-principal .ul .li:last-child {
+    margin-right: 0;
+}
+
+.nav-principal .ul .li .link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.banner-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 185px 0 217px;
+}
+
+.banner-presentation .header {
+    margin-top: 185px;
+    margin-bottom: 64px;
+}
+
+.banner-presentation .header .title {
+    font-size: 64px;
+}
+
+.banner-presentation .p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 29px;
+    max-width: 440px;
+    margin-bottom: 35px;
+}
+
+/* 
+    Classes com baixa especialização para uso comum, 
+    nesse momento sem estilos para :hover, :active, ...
+ */
+.btn {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+    border: 0;
+    background-color: #000000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 64px;
+}

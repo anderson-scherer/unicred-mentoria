@@ -1,0 +1,14 @@
+/* 
+    A fim de organizar o código, vamos separar nossa aplicação, nesse momento sem 
+    a preocupação com pastas, apenas arquivos. Esse processo facilita a manutenção de contexto.
+    Criamos aqui um reset(redefinição) básico, a fim de padronizar comportamentos em Browsers diferentes
+*/
+
+*, 
+*:after,
+*:before {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
