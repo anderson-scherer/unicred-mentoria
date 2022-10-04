@@ -42,3 +42,7 @@ $ git commit -m "Aqui uma mensagem do que foi feita, máximo 50 caracteres"
 ```bash
 $ git push origin [branch]
 ```
+### Atualizando repositório local baseado na Origin
+```bash
+$ git pull origin [branch]
+```
