@@ -10,6 +10,7 @@ Desenvolver o [projeto](https://github.com/anderson-scherer/unicred-mentoria) en
 
 # Comandos Úteis
 ## GIT
+Recomendação de leitura: [Controlando versões com Git e GitHub](https://www.casadocodigo.com.br/pages/sumario-git-github)
 ### Configurando a conta local
 ```bash
 $ git config --global user.email [email_cadastro_git]
