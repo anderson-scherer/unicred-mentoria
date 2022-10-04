@@ -5,10 +5,16 @@ body {
     color: #000000;
 }
 
-.container-flex {
+.container-flex-h {
 	width: 100%;
 	display: flex;
 	align-items: center;
+}
+
+.container-flex-v {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .header-principal {
@@ -39,33 +45,46 @@ body {
 	padding-right: 32px;
 }
 
-.main-section {
+.main-banner {
 	height: 700px;
 	width: 100%;
-	
 }
 
-.main-section .h2 {
+.main-banner .h2 {
 	font-size: 64px;
 	text-align: center;
 	margin: 185px 0 64px;
 }
 
-.main-section .main-article {
+.main-banner .article {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
     align-items: center;
 }
 
-.main-section .main-p {
+.main-banner .article .p {
 	font-size: 20px;
 	align-items: center;
 	max-width: 440px;
 	margin-bottom: 32px;
 }
 
-.main-section .btn-main {
+.main-testimonial {
+	height: 400px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.main-testimonial .quote {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
 	width: 280px;
 	height: 64px;
 	border:1px solid;
@@ -76,14 +95,12 @@ body {
 	font-family: 'Roboto';
 }
 
-.btn-main:hover {
+.btn:hover {
 	cursor:pointer;
 }
 
-
-
 .circle {
-	display: flex;
+	display: block;
 	width:40px;
 	height: 40px;
 	border-radius: 50%;
