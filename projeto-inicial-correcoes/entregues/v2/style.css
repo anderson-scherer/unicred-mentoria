@@ -1,0 +1,92 @@
+body {
+    background: #F2F2F2;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #000000;
+}
+
+.container-flex {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.header-principal {
+	display: flex;
+	height: 64px;
+}
+
+.header-principal .logo {
+	font-size: 24px;
+	margin: 0 40px;
+	padding: 18px 0;
+}
+
+.header-principal .menu-navigation {
+	display: flex;
+    align-items: center;
+}
+
+.header-principal .menu-navigation .ul {
+	display: flex;
+	list-style: none;
+}
+
+.header-principal .menu-navigation .ul .li .link {
+	font-size: 18px;
+	text-decoration: none;
+	color: #000000;
+	padding-right: 32px;
+}
+
+.main-section {
+	height: 700px;
+	width: 100%;
+	
+}
+
+.main-section .h2 {
+	font-size: 64px;
+	text-align: center;
+	margin: 185px 0 64px;
+}
+
+.main-section .main-article {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+    align-items: center;
+}
+
+.main-section .main-p {
+	font-size: 20px;
+	align-items: center;
+	max-width: 440px;
+	margin-bottom: 32px;
+}
+
+.main-section .btn-main {
+	width: 280px;
+	height: 64px;
+	border:1px solid;
+	border-radius: 5px;
+	background: #000000;
+	color:#FFFFFF;
+	font-size: 18px;
+	font-family: 'Roboto';
+}
+
+.btn-main:hover {
+	cursor:pointer;
+}
+
+
+
+.circle {
+	display: flex;
+	width:40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #000000;
+}
+
