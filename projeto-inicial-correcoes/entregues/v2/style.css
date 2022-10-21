@@ -141,6 +141,7 @@ body {
 }
 
 .main-posts-tall {
+<<<<<<< HEAD
 	height: 820px;
 	display: flex;
 	flex-direction: column;
@@ -148,6 +149,15 @@ body {
 	align-items: center;
 }
 
+=======
+	display: flex;
+	flex-direction: column;
+}
+
+.main-posts-tall .header {
+	text-align: center;
+}
+>>>>>>> 70ad79f9c57d332377a5b69b9e56969cc3124d43
 
 .main-posts-tall .header .title{
 	font-size: 32px;
@@ -166,6 +176,7 @@ body {
 }
 
 .main-posts-tall .box-posts .box-card {
+<<<<<<< HEAD
 	background: #FFFFFF;
 	width: 270px;
 	height: 436px;
@@ -208,3 +219,15 @@ body {
 	color:#6da1bb;
 	text-decoration: underline;
 }
+=======
+	width: 270px;
+	height: 436px;
+	background: #FFFFFF;
+}
+
+.main-posts-tall .box-posts .media {
+	width: 270px;
+	height: 270px;
+	background: #000000;
+}
+>>>>>>> 70ad79f9c57d332377a5b69b9e56969cc3124d43

@@ -1,63 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Correção Projeto Inicial</title>
+	<title>Wire Frame - Gustavo</title>
 
-        <!-- Como e porquê utilizar, preconnect, preload e prefetch -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
-        <link rel='preload' as='style' href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap'>
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap'>
-        
-        <!-- Indicação de leitura: https://www.casadocodigo.com.br/products/livro-css-eficiente -->
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="utilities.css">
+</head>
 <body>
-    <!-- 
-        Qual a importância do uso correto do HTML e CSS para indexação em buscadores
-        Indicações de leitura:
-            https://www.casadocodigo.com.br/products/livro-html-css
-            https://www.casadocodigo.com.br/products/livro-seo
-     -->
-    <div class="container-fle-row">
-        <header class="header-principal">
-            <h1 class="brand">TRADE</h1>
-        </header>
-        <nav class="nav-principal">
-            <ul class="ul">
-                <li class="li">
-                    <a href="javascript: void(0)" class="link">Link 1</a>
-                </li>
-                <li class="li">
-                    <a href="javascript: void(0)" class="link">Link 2</a>
-                </li>
-                <li class="li">
-                    <a href="javascript: void(0)" class="link">Link 3</a>
-                </li>
-                <li class="li">
-                    <a href="javascript: void(0)" class="link">Link 4</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-    <main class="container-flex-row">
-        <section class="banner-presentation">
-            <header class="header">
-                <h2 class="title">Value Position</h2>
-            </header>
-            <p class="p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod temporincididunt ut labore et dolore magna aliqua.
-            </p>
-            <a href="javascript: void(0)" class="btn">
-                Start free trial
-            </a>
-        </section>
-    </main>
+	<header class="header-principal">
+		<h1 class="logo">TRADE</h1>
+		<nav class="menu-navigation">
+			<ul class="ul">
+				<li class="li">
+					<a href="javascript: void(0)" class="link">Link 1</a>
+				</li>
+				<li class="li">
+					<a href="javascript: void(0)" class="link">Link 2</a>
+				</li>
+				<li class="li">
+					<a href="javascript: void(0)" class="link">Link 3</a>
+				</li>
+				<li class="li">
+					<a href="javascript: void(0)" class="link">Link 4</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container-flex-v">
+		<section class="main-banner">
+			<h2 class="h2">Value Proposition</h2>
+			<article class="article">
+				<p class="p">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+				<button href="javascript: void(0)" class="btn">Start Free trial</button>
+			</article>
+		</section>
+		<section class="main-testimonial">
+			<blockquote class="quote">
+				<p class="p">
+					“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.”
+				</p>
+				<span class="circle"></span>
+				<cite class="author">Maria Lopez, VP of Design at Meshery</cite>
+			</blockquote>
+		</section>
+		<section class="main-testimonial">
+			<blockquote class="quote">
+				<p class="p">
+					“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.”
+				</p>
+				<span class="circle"></span>
+				<cite class="author">Maria Lopez, VP of Design at Meshery</cite>
+			</blockquote>
+		</section>
+		<section class="main-form">
+			<p class="p">Try the Product out for free.</p>
+			<form class="form">
+				<input class="input" type="email" name="email" placeholder="email">
+				<input class ="input" type="password" name="password" placeholder="password">
+				<button href="javascript: void(0)" class="btn">Start Free Trial</button>
+			</form>
+		</section>
+		<section class="main-posts-tall">
+			<header class="header">te vira</header>
+			<div class="box-posts">
+				<article class="card-box">
+					<div class="media"></div>
+					<div class="content">
+						<h2 class="title">Special Feature</h2>
+						<a href="https://www.abeventos.com.br/home" class="link" title="See More ›">See More ›</a>
+					</div>
+				</article>
+				<article class="card-box">
+					<div class="media"></div>
+					<div class="content">
+						<h2 class="title">Special Feature</h2>
+						<a href="https://www.terradonunca.com.br" class="link" title="See More ›">See More ›</a>
+					</div>
+				</article>
+				<article class="card-box">
+					<div class="media"></div>
+					<div class="content">
+						<h2 class="title">Special Feature</h2>
+						<a href="https://www.farfarway.com.br" class="link" title="See More ›">See More ›</a>
+					</div>
+				</article>
+				<article class="card-box">
+					<div class="media"></div>
+					<div class="content">
+						<h2 class="title">Special Feature</h2>
+						<a href="https://www.casodosbolos.com.br" class="link" title="See More ›">See More ›</a>
+					</div>
+				</article>
+			</div>
+		</section>
+	</main>
 </body>
 </html>
