@@ -15,6 +15,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom:111px;
 }
 
 .header-principal {
@@ -283,4 +284,62 @@ body {
 .main-posts-top .card-blog .link {
 	color:#000000;
 	text-decoration: none;
+}
+
+.footer {
+	width: 100%;
+}
+
+.footer .div {
+	display: flex;
+	justify-content: center;
+}
+
+.menu-footer {
+	width: 1000px;
+}
+
+.menu-footer .ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	color:#000;
+}
+
+.menu-footer .link {
+	color:#000;
+	text-decoration: none;
+}
+
+.element-div {
+	display: flex;
+	justify-content: center;
+}
+
+.element-div .element {
+	width: 1000px;
+	border: 1px solid #000;
+	margin: 48px 0 55px;
+}
+
+.element-circle {
+	display: flex;
+    justify-content: space-around;
+    width: 260px;
+    margin: auto;
+}
+
+.element-circle .circle {
+	background-color:#F2F2F2;
+	border:1px solid #000;
+	margin-bottom: 72px;
+}
+
+.p-footer {
+	display: flex;
+	justify-content: center;
+}
+
+.p-footer .p {
+	margin:0 12px 35px;
 }
