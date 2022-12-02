@@ -42,7 +42,7 @@
 				<p class="p">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 				</p>
-				<button href="javascript: void(0)" class="btn">Start Free trial</button>
+				<button onclick="trocaCror()" class="btn">Start Free trial</button>
 			</article>
 		</section>
 		<section class="main-testimonial">
@@ -105,5 +105,19 @@
 			</div>
 		</section>
 	</main>
+
+	<script>
+		var p = document.querySelectorAll('p');
+
+		function trocaCror() { 
+			for (let index = 0; index < p.length; index++) {
+				p[index].style.backgroundColor = "yellow"	
+			}
+		}
+
+		// p.forEach((element) => {
+		// 	element.style.backgroundColor = "yellow"
+		// })
+	</script>
 </body>
 </html>
